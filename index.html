@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Shrikhand" rel="stylesheet">
+    <title>Formulaire</title>
+</head>
+<body>
+    <div id="corps">
+        <h1>Contact: </h1>
+        <form method="post" action="#">
+
+            <input name="nom" type="text" placeholder="Nom / Prenom" required>
+            <input name="email" type="email" placeholder="mail@mail.com" required>
+            <textarea name="message" placeholder="Message" required ></textarea>
+
+            <div id="conteneur-input">
+
+                <label > <span>Canada</span> <input type="checkbox" value="1">  </label>
+                <label > <span>USA </span> <input type="checkbox" value="0">  </label>
+
+                <label > <span>Trump</span> <input type="radio" name="usa" value="0">  </label>
+                <label > <span>Clinton</span> <input type="radio" name="usa" value="1">  </label>
+
+            </div>
+
+            <input type="button" name="" value="Valider">
+
+        </form>
+
+    </div>
+
+
+</body>
+</html>
